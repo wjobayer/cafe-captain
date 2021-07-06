@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*----------------Commonly used---------------*/
+a{
+    text-decoration: none;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 120px;
+}
+.half-width img{
+    width: 70%;
+    margin-top: 25px;
+}
+.description{
+   margin-top: 65px;
+}
+.top-header,.about{
+    clear: both;
+    overflow: hidden;
+}
+.button {
+    background-image: linear-gradient(orange,tomato);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* ---------------logo--------------- */
+#logo img{
+    width: 8%;
+    float: left;
+}
+#logo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/*-----------------navbar------------------*/
+nav{
+    float: right;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding:10px 20px;
+    color: black;
+    font-weight: 800;
+}
+nav ul li a:hover{
+    color: darkblue;
+}/*------------------------end navbar-----------------*/
+/*------------------hero section-----------------*/
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+}
+span{
+    color: orange;
+}
+/*-------------------end hero section--------------*/
+/*----------------About section----------------*/
+.about{
+    background-image: url("images/shapes/Frame\ 58.jpg");
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.about .description{
+    margin-top: 85px;
+    margin-left: 0px;
+}
+.about img{
+margin-top:85px ;
+}/*------------------------end about section-------------------------*/
+/*-----------------------------Recipie section--------------------------*/
+.recipie{
+    display: flex;
+    margin-bottom: 70px;
+}
+.recipie .one-third-width{
+    width: 29%;
+    float: left;
+    background-color: white;
+    margin-right: 4.3%;
+    border:2px solid white;
+    border-radius: 22px;
+    box-shadow: 0px 0px 20px rgb(160, 143, 143);
+
+}
+#recipie-header{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#recipie-header p{
+    text-align: center;
+}
+.one-third-width img{
+    background-repeat: no-repeat;
+    width: 93.5%;
+    display: block;
+    padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recipie .first{
+    margin-left: 50px;
+}
+.one-third-width h3{
+    padding:0 16px;
+}
+.one-third-width p{
+    padding:0 16px;
+}
+/*---------------------end recipie section----------------*/
+/*------------------------contact section------------------*/
+#contact h2{
+text-align: center;
+}
+#contact h3{
+    margin-left: 110px;
+    color: rgb(235, 84, 109);
+}
+.input{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(160, 143, 143);
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+}
+.input-item{
+    width: 50%;
+    float: left;
+    margin:auto;
+}
+.input-button{
+    width: 5%;
+    float: left;
+    margin: auto;
+    margin-left: 0%;
+    margin-right: 8%;
+    padding: 10px 20px;
+}
+#contact{
+    margin-bottom: 100px;
+}
+.input-method{
+    border: 2px solid rgb(196, 175, 175);
+    border-radius: 3px;
+    width: 300px;
+    height: 25px;
+}
+/*----------------------end contact section------------------*/
+/*------------------------footer section-----------------------*/
+#footer{
+    background-color: rgb(212, 117, 133);
+    padding: 35px;
+}
+.footer-area{
+    text-align: center;
+}
+.footer-area h2,h5{
+    margin: 0%;
+}
+/*--------------------end footer section--------------------*/
